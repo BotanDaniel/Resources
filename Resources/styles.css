@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+  font-family: 'Poppins', sans-serif, Arial;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  width: auto;
+  height: 40vh;
+  background-color: #29b2ec;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 2.7rem;
+  color: #fff;
+}
+
+.resources-shortcut {
+  width: auto;
+  height: 10vh;
+  background-color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resources-shortcut ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.resources-shortcut li {
+  padding: 10px 20px;
+  margin: 0px 30px;
+  background-color: #e4ecec;
+  border-radius: 20px;
+}
+
+.resources-shortcut li i {
+  padding: 0px 10px 0px 0px;
+  font-size: 20px;
+}
+
+/* -------------------------RESOURCES SECTION-------------------------   */
+.heading {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 2rem;
+}
+
+.heading i {
+  padding-right: 20px;
+}
+
+/* -------------------------TOOLS SECTION-------------------------   */
+
+.list-item {
+  width: 400px;
+}
+
+.list-item div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.list-item div h3 {
+  padding-left: 20px;
+  font-size: 2rem;
+}
