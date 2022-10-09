@@ -55,6 +55,11 @@ header h1 {
   font-size: 20px;
 }
 
+.resources-shortcut ul li a:hover {
+  color: #ff731d;
+  font-weight: 900;
+}
+
 /* -------------------------RESOURCES SECTION-------------------------   */
 .heading {
   display: flex;
@@ -70,7 +75,7 @@ header h1 {
   padding-right: 25px;
 }
 
-/* -------------------------TOOLS SECTION-------------------------   */
+/* -------------------------RESOURCES GRID SECTION-------------------------   */
 .item-wrapper {
   background-color: #f9fafa;
 }
@@ -92,9 +97,14 @@ header h1 {
   color: #29b2ec;
 }
 
+.item-info a:hover {
+  color: #ff731d;
+}
+
 .items-grid {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
+  padding: 50px;
 }
